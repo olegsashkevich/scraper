@@ -1,4 +1,3 @@
-# Auto-generated file
 class AsyncGethAdmin(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-admin
@@ -87,3 +86,4 @@ class AsyncGethAdmin(Module):
         return await self._stop_ws()
 
 
+ 
