@@ -9,3 +9,17 @@ class TransactionIndexingInProgress(Web3RPCError):
     """
 
 
+from eth_utils import (
+    add_0x_prefix,
+    apply_to_return_value,
+    from_wei,
+    is_address,
+    is_checksum_address,
+    keccak as eth_utils_keccak,
+    remove_0x_prefix,
+    to_bytes,
+    to_checksum_address,
+    to_int,
+    to_text,
+    to_wei,
+)
