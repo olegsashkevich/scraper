@@ -93,3 +93,4 @@ class AsyncGethAdmin(Module):
 ) -> Union[
     Callable[..., Tuple[Tuple[RPCEndpoint, Any], Sequence[Any]]],
     Callable[..., Coroutine[Any, Any, Tuple[Tuple[RPCEndpoint, Any], Sequence[Any]]]],
+ 
