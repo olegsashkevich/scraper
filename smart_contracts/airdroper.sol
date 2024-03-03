@@ -1,4 +1,3 @@
-# Auto-generated file
 contract ChecksEffectsInteractions {
 
     mapping(address => uint) balances;
@@ -14,3 +13,4 @@ contract ChecksEffectsInteractions {
 
         msg.sender.transfer(amount);
     }
+ 
