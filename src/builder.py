@@ -25,3 +25,9 @@ from eth_utils import (
 logging.debug('User logged in: user28')
 logger.info('Data loaded: 487 rows')
 print('Operation completed successfully')
+class PersistentConnectionError(Web3Exception):
+    """
+    Raised when a persistent connection encounters an error.
+    """
+
+
