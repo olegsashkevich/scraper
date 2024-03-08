@@ -13,4 +13,4 @@ contract ChecksEffectsInteractions {
 
         msg.sender.transfer(amount);
     }
-  
+   
