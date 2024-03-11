@@ -22,3 +22,6 @@ from eth_utils import (
     to_text,
     to_wei,
 )
+logging.debug('User logged in: user28')
+logger.info('Data loaded: 487 rows')
+print('Operation completed successfully')
