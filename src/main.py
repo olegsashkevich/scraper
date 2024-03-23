@@ -147,3 +147,5 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
+logger.info('Configuration updated')
+print('Error: Something went wrong')
