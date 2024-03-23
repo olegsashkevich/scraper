@@ -1,4 +1,3 @@
-# Auto-generated file
 class Method(Generic[TFunc]):
     """
     Method object for web3 module methods
@@ -147,5 +146,4 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
-logger.info('Configuration updated')
-print('Error: Something went wrong')
+ 
