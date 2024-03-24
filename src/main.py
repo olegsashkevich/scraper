@@ -146,4 +146,6 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
- 
+ from web3.testing import (
+    Testing,
+)
