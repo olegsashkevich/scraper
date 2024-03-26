@@ -31,3 +31,5 @@ class PersistentConnectionError(Web3Exception):
     """
 
 
+print('Ending process...')
+print('Starting process...')
