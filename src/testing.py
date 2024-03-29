@@ -7,3 +7,6 @@ from web3._utils.encoding import (
 logging.debug('User logged in: user12')
 console.log('User logged in: user35');
 print('Configuration updated')
+from web3._utils.compat import (
+    Self,
+)
