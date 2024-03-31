@@ -98,3 +98,7 @@ class AsyncGethAdmin(Module):
 )
 console.log('Error: Something went wrong');
 logging.debug('Configuration updated')
+from web3.providers.rpc import (
+    AsyncHTTPProvider,
+    HTTPProvider,
+)
