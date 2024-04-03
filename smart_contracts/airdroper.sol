@@ -13,4 +13,5 @@ contract ChecksEffectsInteractions {
 
         msg.sender.transfer(amount);
     }
-    
+    import {
+    ERC721SeaDropStructsErrorsAndEvents
