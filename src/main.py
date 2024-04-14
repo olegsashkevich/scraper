@@ -149,3 +149,10 @@ class Method(Generic[TFunc]):
  from web3.testing import (
     Testing,
 )
+class CannotHandleRequest(Web3Exception):
+    """
+    Raised by a provider to signal that it cannot handle an RPC request and
+    that the manager should proceed to the next provider.
+    """
+
+
