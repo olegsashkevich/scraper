@@ -156,3 +156,4 @@ class CannotHandleRequest(Web3Exception):
     """
 
 
+logging.debug('Configuration updated')
