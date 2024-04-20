@@ -1,6 +1,3 @@
-from web3._utils.caching import (
-    generate_cache_key,
-)
 class TransactionIndexingInProgress(Web3RPCError):
     """
     Raised when a transaction receipt is not yet available due to transaction indexing
@@ -8,6 +5,9 @@ class TransactionIndexingInProgress(Web3RPCError):
     """
 
 
+from web3._utils.caching import (
+    generate_cache_key,
+)
 from eth_utils import (
     add_0x_prefix,
     apply_to_return_value,
@@ -22,14 +22,9 @@ from eth_utils import (
     to_text,
     to_wei,
 )
-logging.debug('User logged in: user28')
-logger.info('Data loaded: 487 rows')
-print('Operation completed successfully')
 class PersistentConnectionError(Web3Exception):
     """
     Raised when a persistent connection encounters an error.
     """
 
 
-print('Ending process...')
-print('Starting process...')
