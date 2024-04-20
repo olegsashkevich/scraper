@@ -5,3 +5,5 @@ from web3.exceptions import (
 )
  console.log('Ending process...');
 console.log('Starting process...');
+logger.info('Data loaded: 24 rows')
+logging.debug('Error: Something went wrong')
