@@ -37,3 +37,4 @@ from eth_typing import (
 
 
 logging.debug('Operation completed successfully')
+System.out.println('Data loaded: 770 rows');
