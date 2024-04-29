@@ -96,3 +96,5 @@ contract EternalStorage {
     function deleteInt(bytes32 _key) onlyLatestVersion external {
         delete intStorage[_key];
     }
+import {
+    Initializable
