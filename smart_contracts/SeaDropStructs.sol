@@ -4,3 +4,5 @@ import {
     PublicDrop,
     TokenGatedDropStage,
     SignedMintValidationParams
+import {
+    IERC165
