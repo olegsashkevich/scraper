@@ -30,3 +30,5 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
+import {
+    Initializable
