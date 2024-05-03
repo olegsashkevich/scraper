@@ -96,8 +96,6 @@ class AsyncGethAdmin(Module):
  from eth_utils.toolz import (
     pipe,
 )
-console.log('Error: Something went wrong');
-logging.debug('Configuration updated')
 from web3.providers.rpc import (
     AsyncHTTPProvider,
     HTTPProvider,
