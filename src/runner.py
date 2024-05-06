@@ -36,5 +36,4 @@ from eth_typing import (
         return await self._status()
 
 
-logging.debug('Operation completed successfully')
-System.out.println('Data loaded: 770 rows');
+ 

@@ -1,8 +1,7 @@
-# Auto-generated file
+import {
+    IERC165
 import {
     AllowListData,
     PublicDrop,
     TokenGatedDropStage,
     SignedMintValidationParams
-import {
-    IERC165
