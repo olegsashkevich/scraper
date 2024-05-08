@@ -1,3 +1,6 @@
+from web3._utils.caching import (
+    generate_cache_key,
+)
 class TransactionIndexingInProgress(Web3RPCError):
     """
     Raised when a transaction receipt is not yet available due to transaction indexing
@@ -5,9 +8,6 @@ class TransactionIndexingInProgress(Web3RPCError):
     """
 
 
-from web3._utils.caching import (
-    generate_cache_key,
-)
 from eth_utils import (
     add_0x_prefix,
     apply_to_return_value,
