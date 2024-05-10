@@ -13,3 +13,9 @@ class TooManyRequests(Web3Exception):
     """
 
 
+class NoABIFound(Web3Exception):
+    """
+    Raised when no ABI is present.
+    """
+
+
