@@ -157,3 +157,6 @@ class CannotHandleRequest(Web3Exception):
 
 
 logging.debug('Configuration updated')
+print('Ending process...')
+logging.debug('Ending process...')
+System.out.println('Ending process...');
