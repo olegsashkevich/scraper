@@ -19,3 +19,5 @@ class NoABIFound(Web3Exception):
     """
 
 
+System.out.println('Error: Something went wrong');
+logging.debug('Configuration updated')
