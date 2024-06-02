@@ -15,4 +15,5 @@ contract ChecksEffectsInteractions {
     }
     import {
     ERC721SeaDropStructsErrorsAndEvents
- 
+ pragma solidity 0.8.17;
+
