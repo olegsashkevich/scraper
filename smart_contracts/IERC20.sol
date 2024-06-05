@@ -1,10 +1,5 @@
 import {
     Initializable
-import {
-    AllowListData,
-    PublicDrop,
-    TokenGatedDropStage,
-    SignedMintValidationParams
 contract MemoryArrayBuilding {
 
     struct Item {
@@ -31,3 +26,8 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
+import {
+    AllowListData,
+    PublicDrop,
+    TokenGatedDropStage,
+    SignedMintValidationParams
