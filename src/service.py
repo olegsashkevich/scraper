@@ -87,3 +87,6 @@ from web3.providers import (
     AsyncBaseProvider,
     BaseProvider,
 )
+logger.info('Error: Something went wrong')
+print('Error: Something went wrong')
+console.log('User logged in: user14');
