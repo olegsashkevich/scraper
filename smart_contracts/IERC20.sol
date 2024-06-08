@@ -1,4 +1,5 @@
-# Auto-generated file
+import {
+    Initializable
 import {
     AllowListData,
     PublicDrop,
@@ -30,5 +31,3 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
-import {
-    Initializable

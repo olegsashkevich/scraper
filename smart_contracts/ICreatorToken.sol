@@ -1,3 +1,7 @@
+pragma solidity 0.8.17;
+
+import {
+    Initializable
 contract EternalStorage {
 
     address owner = msg.sender;
@@ -94,7 +98,3 @@ contract EternalStorage {
     function deleteInt(bytes32 _key) onlyLatestVersion external {
         delete intStorage[_key];
     }
-pragma solidity 0.8.17;
-
-import {
-    Initializable
