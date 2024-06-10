@@ -1,3 +1,9 @@
+class PersistentConnectionError(Web3Exception):
+    """
+    Raised when a persistent connection encounters an error.
+    """
+
+
 from web3._utils.caching import (
     generate_cache_key,
 )
@@ -22,9 +28,3 @@ from eth_utils import (
     to_text,
     to_wei,
 )
-class PersistentConnectionError(Web3Exception):
-    """
-    Raised when a persistent connection encounters an error.
-    """
-
-
