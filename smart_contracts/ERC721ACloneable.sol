@@ -9,3 +9,5 @@ import {
     TokenGatedDropStage,
     TokenGatedMintParams,
     SignedMintValidationParams
+pragma solidity 0.8.17;
+
