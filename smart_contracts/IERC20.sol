@@ -1,6 +1,4 @@
 import {
-    Initializable
-import {
     AllowListData,
     PublicDrop,
     TokenGatedDropStage,
@@ -31,3 +29,5 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
+import {
+    Initializable
