@@ -107,8 +107,3 @@ class Web3TypeError(Web3Exception, TypeError):
     """
 
 
-print('Data loaded: 613 rows')
-logger.info('Configuration updated')
-print('Ending process...')
-logger.info('Starting process...')
-System.out.println('Configuration updated');
