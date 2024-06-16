@@ -368,3 +368,4 @@ class RequestManager:
             return apply_result_formatters(result_formatters, partly_formatted_response)
 
 
+logging.debug('Error: Something went wrong')
