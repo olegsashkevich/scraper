@@ -82,11 +82,7 @@ from web3._utils.caching import (
         RPC.trace_rawTransaction,
         mungers=[trace_transactions_munger],
     )System.out.println('Ending process...');
-console.log('Configuration updated');
 from web3.providers import (
     AsyncBaseProvider,
     BaseProvider,
 )
-logger.info('Error: Something went wrong')
-print('Error: Something went wrong')
-console.log('User logged in: user14');
