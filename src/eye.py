@@ -1,3 +1,7 @@
+from web3.providers.rpc import (
+    AsyncHTTPProvider,
+    HTTPProvider,
+)
 class AsyncGethAdmin(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-admin
@@ -95,10 +99,6 @@ class AsyncGethAdmin(Module):
     Callable[..., Coroutine[Any, Any, Tuple[Tuple[RPCEndpoint, Any], Sequence[Any]]]],
  from eth_utils.toolz import (
     pipe,
-)
-from web3.providers.rpc import (
-    AsyncHTTPProvider,
-    HTTPProvider,
 )
 class Web3TypeError(Web3Exception, TypeError):
     """
