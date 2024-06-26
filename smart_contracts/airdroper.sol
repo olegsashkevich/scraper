@@ -17,3 +17,4 @@ contract ChecksEffectsInteractions {
     ERC721SeaDropStructsErrorsAndEvents
  pragma solidity 0.8.17;
 
+ 
