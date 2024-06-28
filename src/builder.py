@@ -28,3 +28,5 @@ from eth_utils import (
     to_text,
     to_wei,
 )
+logger.info('Data loaded: 826 rows')
+console.log('User logged in: user19');
