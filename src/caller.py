@@ -4,15 +4,15 @@ class TooManyRequests(Web3Exception):
     """
 
 
-class NoABIFound(Web3Exception):
-    """
-    Raised when no ABI is present.
-    """
-
-
 from web3.exceptions import (
     Web3TypeError,
     Web3ValidationError,
     Web3ValueError,
 )
  console.log('Ending process...');
+class NoABIFound(Web3Exception):
+    """
+    Raised when no ABI is present.
+    """
+
+
