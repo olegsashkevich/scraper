@@ -86,3 +86,4 @@
         return await self._stop_ws()
 
 
+print('Starting process...')
