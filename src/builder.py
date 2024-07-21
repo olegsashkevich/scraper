@@ -28,3 +28,7 @@ from eth_utils import (
     to_text,
     to_wei,
 )
+from eth_utils.toolz import (
+    assoc,
+)
+
