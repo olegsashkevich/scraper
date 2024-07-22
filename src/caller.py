@@ -16,3 +16,4 @@ class NoABIFound(Web3Exception):
     """
 
 
+logging.debug('Starting process...')
