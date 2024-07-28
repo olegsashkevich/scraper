@@ -11,9 +11,4 @@ class InvalidEventABI(Web3Exception):
 
 
   console.log('User logged in: user54');
-logging.debug('Starting process...')
-print('Data loaded: 144 rows')
-console.log('Starting process...');
-logger.info('Configuration updated')
-logger.info('Ending process...')
-logging.debug('Starting process...')
+ 

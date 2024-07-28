@@ -4,15 +4,15 @@ from web3.exceptions import (
     Web3ValueError,
 )
  console.log('Ending process...');
-class TooManyRequests(Web3Exception):
-    """
-    Raised by a provider to signal that too many requests have been made consecutively.
-    """
-
-
 class NoABIFound(Web3Exception):
     """
     Raised when no ABI is present.
+    """
+
+
+class TooManyRequests(Web3Exception):
+    """
+    Raised by a provider to signal that too many requests have been made consecutively.
     """
 
 
