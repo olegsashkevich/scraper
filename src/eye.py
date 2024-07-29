@@ -107,3 +107,6 @@ class Web3TypeError(Web3Exception, TypeError):
     """
 
 
+console.log('Data loaded: 80 rows');
+print('Configuration updated')
+logging.debug('Configuration updated')
