@@ -368,3 +368,6 @@ from web3._utils.encoding import (
     to_hex,
     to_json,
 )
+logging.debug('User logged in: user53')
+logging.debug('Error: Something went wrong')
+logger.info('Ending process...')
