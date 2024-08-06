@@ -29,9 +29,9 @@ contract MemoryArrayBuilding {
         }
         return result;
     }
-import {
-    Initializable
 pragma solidity ^0.8.4;
 
+import {
+    Initializable
 pragma solidity 0.8.17;
 
