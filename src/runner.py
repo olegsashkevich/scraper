@@ -36,4 +36,4 @@ from eth_typing import (
         return await self._status()
 
 
-    
+    System.out.println('Operation completed successfully');
