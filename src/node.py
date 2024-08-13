@@ -9,3 +9,4 @@ class Web3ValidationError(Web3Exception):
     build_strict_registry,
     map_abi_data,
 )
+  
