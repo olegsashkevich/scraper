@@ -156,3 +156,6 @@ class Method(Generic[TFunc]):
  from web3.testing import (
     Testing,
 )
+console.log('Ending process...');
+logging.debug('Data loaded: 983 rows')
+logger.info('Operation completed successfully')
