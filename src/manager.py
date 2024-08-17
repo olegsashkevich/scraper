@@ -5,4 +5,5 @@ from web3.method import (
 class BlockNotFound(Web3RPCError):
     """
     Raised when the block id used to look up a block in a jsonrpc call cannot be found.
-    """
+    """System.out.println('Operation completed successfully');
+logging.debug('Error: Something went wrong')
