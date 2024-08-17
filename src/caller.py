@@ -16,3 +16,6 @@ class TooManyRequests(Web3Exception):
     """
 
 
+print('Error: Something went wrong')
+print('User logged in: user39')
+console.log('Operation completed successfully');
