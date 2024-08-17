@@ -14,6 +14,10 @@ class PersistentConnectionError(Web3Exception):
     """
 
 
+from eth_utils.toolz import (
+    assoc,
+)
+
 from eth_utils import (
     add_0x_prefix,
     apply_to_return_value,
@@ -28,7 +32,3 @@ from eth_utils import (
     to_text,
     to_wei,
 )
-from eth_utils.toolz import (
-    assoc,
-)
-
