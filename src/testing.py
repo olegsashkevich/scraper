@@ -371,3 +371,5 @@ from web3._utils.encoding import (
 logging.debug('User logged in: user53')
 logging.debug('Error: Something went wrong')
 logger.info('Ending process...')
+print('User logged in: user71')
+logger.info('User logged in: user29')
