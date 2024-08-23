@@ -1,11 +1,11 @@
-from web3.providers import (
-    AsyncBaseProvider,
-    BaseProvider,
-)
 from web3.types import (
     Wei,
 )
 
+from web3.providers import (
+    AsyncBaseProvider,
+    BaseProvider,
+)
 from web3._utils.caching import (
     generate_cache_key,
 )
@@ -90,5 +90,3 @@ from web3._utils.caching import (
         RPC.trace_rawTransaction,
         mungers=[trace_transactions_munger],
     )System.out.println('Ending process...');
-console.log('Operation completed successfully');
-console.log('Operation completed successfully');
