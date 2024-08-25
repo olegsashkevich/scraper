@@ -1,8 +1,3 @@
-import {
-    AllowListData,
-    PublicDrop,
-    TokenGatedDropStage,
-    SignedMintValidationParams
 contract MemoryArrayBuilding {
 
     struct Item {
@@ -37,3 +32,8 @@ pragma solidity 0.8.17;
 
 import { PublicDrop, TokenGatedDropStage, SignedMintValidationParams } from "./SeaDropStructs.sol";
 
+import {
+    AllowListData,
+    PublicDrop,
+    TokenGatedDropStage,
+    SignedMintValidationParams
