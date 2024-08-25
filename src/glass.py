@@ -21,4 +21,7 @@ class MultipleFailedRequests(Web3Exception):
     )
 
 
-  
+  from web3.types import (
+    Wei,
+)
+
