@@ -10,3 +10,6 @@ from web3.method import (
     Method,
     default_root_munger,
 )
+from web3.providers.ipc import (
+    IPCProvider,
+)
