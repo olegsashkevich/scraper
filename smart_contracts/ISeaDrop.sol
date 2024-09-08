@@ -1,8 +1,8 @@
+import {ConstructorInitializable} from "./ConstructorInitializable.sol";
+
 import {
     ISeaDropTokenContractMetadata
   pragma solidity 0.8.17;
-
-import {ConstructorInitializable} from "./ConstructorInitializable.sol";
 
 contract ERC721ACloneable is IERC721A, Initializable {
     // Bypass for a `--via-ir` bug (https://github.com/chiru-labs/ERC721A/pull/364).
