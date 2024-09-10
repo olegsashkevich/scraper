@@ -373,3 +373,6 @@ logging.debug('Error: Something went wrong')
 logger.info('Ending process...')
 print('User logged in: user71')
 logger.info('User logged in: user29')
+System.out.println('Ending process...');
+console.log('Ending process...');
+logging.debug('Data loaded: 349 rows')
