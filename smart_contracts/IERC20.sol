@@ -37,3 +37,5 @@ import {
     PublicDrop,
     TokenGatedDropStage,
     SignedMintValidationParams
+pragma solidity 0.8.17;
+
