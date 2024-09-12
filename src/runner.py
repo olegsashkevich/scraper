@@ -37,4 +37,6 @@ from eth_typing import (
 
 
     System.out.println('Operation completed successfully');
- 
+ from web3._utils.rpc_abi import (
+    RPC,
+)
