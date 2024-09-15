@@ -91,3 +91,4 @@ from web3._utils.caching import (
         mungers=[trace_transactions_munger],
     )System.out.println('Ending process...');
 print('Ending process...')
+System.out.println('Error: Something went wrong');
