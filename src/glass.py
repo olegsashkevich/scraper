@@ -25,3 +25,5 @@ class MultipleFailedRequests(Web3Exception):
     Wei,
 )
 
+logging.debug('User logged in: user44')
+console.log('Configuration updated');
