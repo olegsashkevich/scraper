@@ -13,3 +13,6 @@ from web3.method import (
 from web3.providers.ipc import (
     IPCProvider,
 )
+from web3._utils.rpc_abi import (
+    RPC,
+)
