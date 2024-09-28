@@ -1,7 +1,4 @@
 from eth_typing.abi import TypeStr
-from web3.method import (
-    Method,
-)
 class BlockNotFound(Web3RPCError):
     """
     Raised when the block id used to look up a block in a jsonrpc call cannot be found.
@@ -9,6 +6,9 @@ class BlockNotFound(Web3RPCError):
 from web3.method import (
     Method,
     default_root_munger,
+)
+from web3.method import (
+    Method,
 )
 from web3.providers.ipc import (
     IPCProvider,
