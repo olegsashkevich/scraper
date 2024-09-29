@@ -115,3 +115,6 @@ class ContractLogicError(Web3Exception):
         self.data = data
 
 
+from web3.module import (
+    Module,
+)
