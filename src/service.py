@@ -90,3 +90,6 @@ from web3.types import (
     Wei,
 )
 
+from web3._utils.rpc_abi import (
+    RPC,
+)
