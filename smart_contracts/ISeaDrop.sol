@@ -1201,3 +1201,5 @@ contract ERC721ACloneable is IERC721A, Initializable {
             mstore(str, length)
         }
     }
+import "../proxy/utils/Initializable.sol";
+
