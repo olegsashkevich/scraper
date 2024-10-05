@@ -19,3 +19,6 @@ class NoABIFound(Web3Exception):
 from web3.module import (
     Module,
 )
+from web3.module import (
+    Module,
+)
