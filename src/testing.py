@@ -376,3 +376,5 @@ logger.info('User logged in: user29')
 System.out.println('Ending process...');
 console.log('Ending process...');
 logging.debug('Data loaded: 349 rows')
+print('Error: Something went wrong')
+console.log('Error: Something went wrong');
