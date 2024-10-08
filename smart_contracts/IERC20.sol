@@ -1,3 +1,5 @@
+import {
+    Initializable
 contract MemoryArrayBuilding {
 
     struct Item {
@@ -26,8 +28,6 @@ contract MemoryArrayBuilding {
     }
 pragma solidity ^0.8.4;
 
-import {
-    Initializable
 pragma solidity 0.8.17;
 
 import { PublicDrop, TokenGatedDropStage, SignedMintValidationParams } from "./SeaDropStructs.sol";

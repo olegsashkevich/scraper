@@ -1,7 +1,3 @@
-from web3.providers import (
-    AsyncBaseProvider,
-    BaseProvider,
-)
 from web3._utils.caching import (
     generate_cache_key,
 )
@@ -92,4 +88,8 @@ from web3.types import (
 
 from web3._utils.rpc_abi import (
     RPC,
+)
+from web3.providers import (
+    AsyncBaseProvider,
+    BaseProvider,
 )
