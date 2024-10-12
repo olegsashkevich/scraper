@@ -93,3 +93,6 @@ from web3._utils.caching import (
 from web3._utils.rpc_abi import (
     RPC,
 )
+from web3.providers.ipc import (
+    IPCProvider,
+)
