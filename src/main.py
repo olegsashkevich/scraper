@@ -156,3 +156,9 @@ class Method(Generic[TFunc]):
  from web3.testing import (
     Testing,
 )
+class InvalidEventABI(Web3Exception):
+    """
+    Raised when the event ABI is invalid.
+    """
+
+
