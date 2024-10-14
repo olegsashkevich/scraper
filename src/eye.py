@@ -107,3 +107,7 @@ class Web3TypeError(Web3Exception, TypeError):
     """
 
 
+from web3.middleware.base import (
+    Middleware,
+    MiddlewareOnion,
+)
