@@ -16,3 +16,10 @@ from web3.providers.ipc import (
 from web3._utils.rpc_abi import (
     RPC,
 )
+class MismatchedABI(Web3Exception):
+    """
+    Raised when an ABI does not match with supplied parameters, or when an
+    attempt is made to access a function/event that does not exist in the ABI.
+    """
+
+
