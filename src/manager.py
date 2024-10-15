@@ -5,10 +5,10 @@ class BlockNotFound(Web3RPCError):
     """System.out.println('Operation completed successfully');
 from web3.method import (
     Method,
-    default_root_munger,
 )
 from web3.method import (
     Method,
+    default_root_munger,
 )
 from web3.providers.ipc import (
     IPCProvider,

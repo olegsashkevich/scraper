@@ -1,3 +1,10 @@
+import {
+    AllowListData,
+    MintParams,
+    PublicDrop,
+    TokenGatedDropStage,
+    TokenGatedMintParams,
+    SignedMintValidationParams
 contract ERC721ACloneable is IERC721A, Initializable {
     // Bypass for a `--via-ir` bug (https://github.com/chiru-labs/ERC721A/pull/364).
     struct TokenApprovalRef {
@@ -1195,13 +1202,6 @@ contract ERC721ACloneable is IERC721A, Initializable {
             mstore(str, length)
         }
     }
-import {
-    AllowListData,
-    MintParams,
-    PublicDrop,
-    TokenGatedDropStage,
-    TokenGatedMintParams,
-    SignedMintValidationParams
 import { IERC721A } from "ERC721A/IERC721A.sol";
 
 import {
