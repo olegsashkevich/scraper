@@ -10,18 +10,6 @@ class TooManyRequests(Web3Exception):
     """
 
 
-class NoABIFound(Web3Exception):
-    """
-    Raised when no ABI is present.
-    """
-
-
-from web3.module import (
-    Module,
-)
-from web3.module import (
-    Module,
-)
 def apply_null_result_formatters(
     null_result_formatters: Callable[..., Any],
     response: RPCResponse,
@@ -34,3 +22,15 @@ def apply_null_result_formatters(
         return response
 
 
+class NoABIFound(Web3Exception):
+    """
+    Raised when no ABI is present.
+    """
+
+
+from web3.module import (
+    Module,
+)
+from web3.module import (
+    Module,
+)
