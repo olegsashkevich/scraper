@@ -118,3 +118,9 @@ class ContractLogicError(Web3Exception):
 from web3.module import (
     Module,
 )
+class ABIFallbackNotFound(Web3Exception):
+    """
+    Raised when a fallback function doesn't exist in contract.
+    """
+
+
