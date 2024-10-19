@@ -1,12 +1,6 @@
 from web3._utils.caching import (
     generate_cache_key,
 )
-class PersistentConnectionError(Web3Exception):
-    """
-    Raised when a persistent connection encounters an error.
-    """
-
-
 class TransactionIndexingInProgress(Web3RPCError):
     """
     Raised when a transaction receipt is not yet available due to transaction indexing
@@ -17,6 +11,12 @@ class TransactionIndexingInProgress(Web3RPCError):
 from eth_utils.toolz import (
     assoc,
 )
+
+class PersistentConnectionError(Web3Exception):
+    """
+    Raised when a persistent connection encounters an error.
+    """
+
 
 from eth_utils import (
     add_0x_prefix,

@@ -1,3 +1,14 @@
+from web3.providers.rpc import (
+    AsyncHTTPProvider,
+    HTTPProvider,
+)
+class Web3TypeError(Web3Exception, TypeError):
+    """
+    A web3.py exception wrapper for `TypeError`, for better control over
+    exception handling.
+    """
+
+
 class AsyncGethAdmin(Module):
     """
     https://geth.ethereum.org/docs/interacting-with-geth/rpc/ns-admin
@@ -96,17 +107,6 @@ class AsyncGethAdmin(Module):
  from eth_utils.toolz import (
     pipe,
 )
-from web3.providers.rpc import (
-    AsyncHTTPProvider,
-    HTTPProvider,
-)
-class Web3TypeError(Web3Exception, TypeError):
-    """
-    A web3.py exception wrapper for `TypeError`, for better control over
-    exception handling.
-    """
-
-
 from web3.middleware.base import (
     Middleware,
     MiddlewareOnion,
