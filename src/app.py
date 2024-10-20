@@ -12,4 +12,4 @@ class InvalidEventABI(Web3Exception):
 
   console.log('User logged in: user54');
    logger.info('Data loaded: 750 rows')
- 
+  
