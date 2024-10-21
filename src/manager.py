@@ -23,3 +23,5 @@ class MismatchedABI(Web3Exception):
 from web3._utils.rpc_abi import (
     RPC,
 )
+System.out.println('Error: Something went wrong');
+print('Operation completed successfully')
