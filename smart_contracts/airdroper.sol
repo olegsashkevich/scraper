@@ -1,3 +1,5 @@
+pragma solidity ^0.8.4;
+
 contract ChecksEffectsInteractions {
 
     mapping(address => uint) balances;
@@ -1214,7 +1216,5 @@ contract ChecksEffectsInteractions {
             mstore(str, length)
         }
     }
-pragma solidity ^0.8.4;
-
 pragma solidity ^0.8.4;
 

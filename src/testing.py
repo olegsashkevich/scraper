@@ -1,3 +1,6 @@
+from web3._utils.compat import (
+    Self,
+)
 class RequestManager:
     logger = logging.getLogger("web3.manager.RequestManager")
 
@@ -360,21 +363,8 @@ class RequestManager:
             return apply_result_formatters(result_formatters, partly_formatted_response)
 
 
-from web3._utils.compat import (
-    Self,
-)
 from web3._utils.encoding import (
     hex_encode_abi_type,
     to_hex,
     to_json,
 )
-logging.debug('User logged in: user53')
-logging.debug('Error: Something went wrong')
-logger.info('Ending process...')
-print('User logged in: user71')
-logger.info('User logged in: user29')
-System.out.println('Ending process...');
-console.log('Ending process...');
-logging.debug('Data loaded: 349 rows')
-print('Error: Something went wrong')
-console.log('Error: Something went wrong');
