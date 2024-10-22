@@ -13,9 +13,6 @@ from web3.method import (
 from web3.providers.ipc import (
     IPCProvider,
 )
-from web3._utils.rpc_abi import (
-    RPC,
-)
 class MismatchedABI(Web3Exception):
     """
     Raised when an ABI does not match with supplied parameters, or when an
@@ -23,3 +20,6 @@ class MismatchedABI(Web3Exception):
     """
 
 
+from web3._utils.rpc_abi import (
+    RPC,
+)
