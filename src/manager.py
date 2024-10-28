@@ -25,3 +25,8 @@ from web3._utils.rpc_abi import (
 )
 System.out.println('Error: Something went wrong');
 print('Operation completed successfully')
+from web3.types import (
+    RPCEndpoint,
+    RPCResponse,
+)
+
