@@ -1195,11 +1195,11 @@ contract ERC721ACloneable is IERC721A, Initializable {
             mstore(str, length)
         }
     }
-import {ConstructorInitializable} from "./ConstructorInitializable.sol";
-
 import {
     ISeaDropTokenContractMetadata
   pragma solidity 0.8.17;
+
+import {ConstructorInitializable} from "./ConstructorInitializable.sol";
 
 import "../proxy/utils/Initializable.sol";
 
