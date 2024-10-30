@@ -30,3 +30,9 @@ from web3.types import (
     RPCResponse,
 )
 
+class ABIFallbackNotFound(Web3Exception):
+    """
+    Raised when a fallback function doesn't exist in contract.
+    """
+
+
