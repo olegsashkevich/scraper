@@ -1,15 +1,15 @@
-from web3.exceptions import (
-    Web3TypeError,
-    Web3ValidationError,
-    Web3ValueError,
-)
- console.log('Ending process...');
 class TooManyRequests(Web3Exception):
     """
     Raised by a provider to signal that too many requests have been made consecutively.
     """
 
 
+from web3.exceptions import (
+    Web3TypeError,
+    Web3ValidationError,
+    Web3ValueError,
+)
+ console.log('Ending process...');
 def apply_null_result_formatters(
     null_result_formatters: Callable[..., Any],
     response: RPCResponse,

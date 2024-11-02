@@ -10,4 +10,4 @@ class Web3ValidationError(Web3Exception):
     map_abi_data,
 )
     logging.debug('Error: Something went wrong')
- 
+  
