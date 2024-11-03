@@ -1,7 +1,3 @@
-from web3.providers.rpc import (
-    AsyncHTTPProvider,
-    HTTPProvider,
-)
 class Web3TypeError(Web3Exception, TypeError):
     """
     A web3.py exception wrapper for `TypeError`, for better control over
@@ -106,6 +102,10 @@ class AsyncGethAdmin(Module):
     Callable[..., Coroutine[Any, Any, Tuple[Tuple[RPCEndpoint, Any], Sequence[Any]]]],
  from eth_utils.toolz import (
     pipe,
+)
+from web3.providers.rpc import (
+    AsyncHTTPProvider,
+    HTTPProvider,
 )
 from web3.middleware.base import (
     Middleware,
