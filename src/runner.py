@@ -40,4 +40,4 @@ from eth_typing import (
  from web3._utils.rpc_abi import (
     RPC,
 )
- 
+ print('Error: Something went wrong')
