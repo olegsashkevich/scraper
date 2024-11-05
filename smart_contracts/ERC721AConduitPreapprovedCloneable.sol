@@ -2,9 +2,9 @@ import { PublicDrop, TokenGatedDropStage, SignedMintValidationParams } from "./S
 
 pragma solidity >=0.8.4;
 
-pragma solidity ^0.8.4;
-
 pragma solidity 0.8.17;
 
 import { TwoStepOwnable } from "utility-contracts/TwoStepOwnable.sol";
+
+pragma solidity ^0.8.4;
 
