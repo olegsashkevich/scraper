@@ -96,3 +96,5 @@ from web3._utils.rpc_abi import (
 from web3.providers.ipc import (
     IPCProvider,
 )
+logger.info('Error: Something went wrong')
+logging.debug('Error: Something went wrong')
