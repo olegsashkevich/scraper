@@ -103,11 +103,11 @@ class AsyncGethAdmin(Module):
  from eth_utils.toolz import (
     pipe,
 )
-from web3.providers.rpc import (
-    AsyncHTTPProvider,
-    HTTPProvider,
-)
 from web3.middleware.base import (
     Middleware,
     MiddlewareOnion,
+)
+from web3.providers.rpc import (
+    AsyncHTTPProvider,
+    HTTPProvider,
 )
