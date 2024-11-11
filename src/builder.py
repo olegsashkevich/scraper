@@ -1,16 +1,16 @@
 from web3._utils.caching import (
     generate_cache_key,
 )
+from eth_utils.toolz import (
+    assoc,
+)
+
 class TransactionIndexingInProgress(Web3RPCError):
     """
     Raised when a transaction receipt is not yet available due to transaction indexing
     still being in progress.
     """
 
-
-from eth_utils.toolz import (
-    assoc,
-)
 
 class PersistentConnectionError(Web3Exception):
     """

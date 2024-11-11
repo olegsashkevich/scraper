@@ -1,3 +1,6 @@
+from web3.providers.ipc import (
+    IPCProvider,
+)
 from eth_typing.abi import TypeStr
 class BlockNotFound(Web3RPCError):
     """
@@ -10,9 +13,6 @@ from web3.method import (
     Method,
     default_root_munger,
 )
-from web3.providers.ipc import (
-    IPCProvider,
-)
 class MismatchedABI(Web3Exception):
     """
     Raised when an ABI does not match with supplied parameters, or when an
@@ -23,8 +23,6 @@ class MismatchedABI(Web3Exception):
 from web3._utils.rpc_abi import (
     RPC,
 )
-System.out.println('Error: Something went wrong');
-print('Operation completed successfully')
 from web3.types import (
     RPCEndpoint,
     RPCResponse,
