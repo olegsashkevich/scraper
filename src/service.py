@@ -93,9 +93,6 @@ from web3.providers import (
 from web3.providers.ipc import (
     IPCProvider,
 )
-from web3._utils.rpc_abi import (
-    RPC,
-)
 class Method(Generic[TFunc]):
     """
     Method object for web3 module methods
@@ -244,3 +241,6 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
+from web3._utils.rpc_abi import (
+    RPC,
+)
