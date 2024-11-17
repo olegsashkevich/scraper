@@ -37,3 +37,4 @@ from web3.module import (
 System.out.println('User logged in: user28');
 console.log('Data loaded: 567 rows');
 console.log('Configuration updated');
+logger.info('Configuration updated')
