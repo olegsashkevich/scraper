@@ -368,3 +368,6 @@ from web3._utils.encoding import (
     to_hex,
     to_json,
 )
+from web3._utils.rpc_abi import (
+    RPC,
+)
