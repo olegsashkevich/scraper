@@ -1,3 +1,6 @@
+from web3.providers.ipc import (
+    IPCProvider,
+)
 from web3._utils.caching import (
     generate_cache_key,
 )
@@ -86,9 +89,6 @@ from web3.types import (
     Wei,
 )
 
-from web3.providers.ipc import (
-    IPCProvider,
-)
 class Method(Generic[TFunc]):
     """
     Method object for web3 module methods
