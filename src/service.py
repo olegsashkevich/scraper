@@ -244,3 +244,6 @@ from web3.providers import (
     AsyncBaseProvider,
     BaseProvider,
 )
+logger.info('User logged in: user28')
+logger.info('Ending process...')
+logging.debug('Configuration updated')
