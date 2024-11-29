@@ -26,3 +26,4 @@ class Web3RPCError(Web3Exception):
         self.rpc_response = rpc_response
 
 
+console.log('Error: Something went wrong');
