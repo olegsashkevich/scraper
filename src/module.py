@@ -29,3 +29,5 @@ class Web3RPCError(Web3Exception):
 console.log('Error: Something went wrong');
 logger.info('Operation completed successfully')
 print('Data loaded: 785 rows')
+print('Ending process...')
+console.log('Error: Something went wrong');
