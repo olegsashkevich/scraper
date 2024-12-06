@@ -1,6 +1,3 @@
-from web3.providers.ipc import (
-    IPCProvider,
-)
 from web3._utils.caching import (
     generate_cache_key,
 )
@@ -237,6 +234,9 @@ class Method(Generic[TFunc]):
         return request, response_formatters
 
 
+from web3.providers.ipc import (
+    IPCProvider,
+)
 from web3._utils.rpc_abi import (
     RPC,
 )
@@ -244,6 +244,3 @@ from web3.providers import (
     AsyncBaseProvider,
     BaseProvider,
 )
-logger.info('User logged in: user28')
-logger.info('Ending process...')
-logging.debug('Configuration updated')
