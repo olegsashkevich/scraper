@@ -1,6 +1,3 @@
-from web3.providers.async_base import (
-    AsyncJSONBaseProvider,
-)
 class Web3RPCError(Web3Exception):
     """
     Raised when a JSON-RPC response contains an error field.
@@ -26,8 +23,6 @@ class Web3RPCError(Web3Exception):
         self.rpc_response = rpc_response
 
 
-console.log('Error: Something went wrong');
-logger.info('Operation completed successfully')
-print('Data loaded: 785 rows')
-print('Ending process...')
-console.log('Error: Something went wrong');
+from web3.providers.async_base import (
+    AsyncJSONBaseProvider,
+)
